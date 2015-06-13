@@ -28,9 +28,9 @@ source_i686+=(http://infinitekind.com/stabledl/2015/Moneydance_linux_x86.tar.gz)
 source_x86_64+=(http://infinitekind.com/stabledl/2015/Moneydance_linux_amd64.tar.gz)
 sha256sums=('9c45324e6929c3ef52d195cfbbc6014e666b2f34a1be03c0bd81cd50b44cd89a'
             '4e48af0efb968910304767fe0bbab733aaa7b15f4d05b6a82c9fdac78351776f'
-            '296df4d3ab922bf5617c25a7c7f55d2bedf3d3037b2b90a8c969d805904917b5')
-sha256sums_i686=('7b8e9dfe98b0f37293a5589d78ea8c30a3b5d7239037adbb942151541068188d')
-sha256sums_x86_64=('3d873a9a5fb7d846281282c9b986e71ecdbb7184f8f85c7fdf3594ec6ccb693e')
+            'f39131137deca1d07d773c60691a7cd2364032abb72d43a35eaaf92ed7032962')
+sha256sums_i686=('e18866d3095edd311514794e14245ac2b1e2445deeaeff14db0dca3874d98af3')
+sha256sums_x86_64=('d879cfc4d0867e165ecc9273d1ce17efa0a83b7c96c972c7d738812b2bb09ef3')
 
 package() {
   # generate directories in $pkgdir
